@@ -12,7 +12,7 @@
 > [!TIP]
 > ### 🎁 Exclusive Community Promo: 20% OFF OpenAdapter Coding Plans!
 > OpenAdapter delivers 40+ top-tier open-source coding & reasoning models (*DeepSeek-R1, DeepSeek-V3, Qwen2.5-Coder, GLM-5.2, Kimi-K2.5, MiniMax-M3, Mistral-Large*) starting at just **$6.99/month** (4x cheaper than proprietary tools).  
-> 👉 **[Claim 20% OFF with Invite Link `https://dashboard.openadapter.in/?ref=BDPBCR3R`](https://dashboard.openadapter.in/?ref=BDPBCR3R)** *(Referral Code: `BDPBCR3R`)*
+> 👉 **[Claim 20% OFF with Invite Link `https://dashboard.openadapter.in/?ref=BDPBCR3R`](https://dashboard.openadapter.in/?ref=BDPBCR3R)** *(Invite Token: `BDPBCR3R`)*
 
 ---
 

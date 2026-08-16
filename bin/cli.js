@@ -146,7 +146,7 @@ async function handleSetup() {
 
   console.log(`\n\x1b[1;36m🌟 Welcome to OpenAdapter for Codex Setup 🌟\x1b[0m`);
   console.log(`\x1b[33m💡 Need an OpenAdapter key? Get 20% OFF coding plans (from $6.99/mo) at:\x1b[0m`);
-  console.log(`\x1b[36m   https://dashboard.openadapter.in/?ref=BDPBCR3R (Code: BDPBCR3R)\x1b[0m\n`);
+  console.log(`\x1b[36m   https://dashboard.openadapter.in/?ref=BDPBCR3R (Invite Token: BDPBCR3R)\x1b[0m\n`);
   
   const keyInput = await question(`Enter your OpenAdapter API Key [${config.openadapter_api_key ? 'Press Enter to keep current' : 'sk-oa-...' }]: `);
   if (keyInput.trim()) {
