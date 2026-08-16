@@ -79,36 +79,27 @@ Manage the OpenAdapter gateway easily with the included CLI:
 
 ## 🤖 Verified OpenAdapter Models Catalog
 
-All models from [**OpenAdapter Models Directory**](https://dashboard.openadapter.in/models) are supported directly:
+OpenAdapter offers 40+ SOTA open-source and reasoning models (from [**openadapter.dev/#models**](https://openadapter.dev/#models) and [**dashboard.openadapter.in/models**](https://dashboard.openadapter.in/models)):
 
-### 🌟 0G & Flagship Reasoning / Coding Models
-- **`0G-DeepSeek-v4-Pro`** / **`0G-DeepSeek-v4-Flash`** / **`0G-DeepSeek-V3`**
-- **`0G-GLM-5.2`** / **`0G-GLM-5.1`** / **`0G-GLM-5`**
-- **`0G-Qwen3.7-max`** / **`0G-Qwen3.6`** / **`0G-Qwen-VL`**
-- **`0GM-1.0-35B-A3B`**
-- **`0g-minimax-m3`** / **`MiniMax-M3`**
-
-### 💻 OpenAdapter Native & Code Models
-- **`OA-Robin-Mini-Preview`** *(Default)*
-- **`Qwen2.5-Coder`**
-- **`deepseek-ai/deepseek-v4-pro`** / **`deepseek-ai/deepseek-v4-flash`**
-- **`glm-5.2`** / **`glm-5.1`** / **`glm-5`** / **`glm-4.7`**
-- **`meta/llama-4-maverick-17b-128e-instruct`** / **`meta/codellama-70b`**
-- **`moonshotai/kimi-k2.6`**
-- **`stepfun-ai/step-3.7-flash`**
-- **`nvidia/llama-3.3-nemotron-super-49b-v1.5`**
-
-### 🆓 Free Tier Models
-- **`free/north-mini-code`**
-- **`free/gemma-4-31b-it`**
-- **`free/gpt-oss-20b`**
-- **`free/nemotron-3-nano-omni-30b-a3b-reasoning`**
-- **`free/nemotron-3-super-120b-a12b`**
-- **`free/nemotron-3-ultra-550b-a55b`**
+| Family | Supported Models |
+| :--- | :--- |
+| **DeepSeek** | `DeepSeek-V3`, `DeepSeek-R1`, `0G-DeepSeek-V3`, `0G-DeepSeek-v4-Pro`, `0G-DeepSeek-v4-Flash`, `deepseek-ai/deepseek-coder-6.7b-instruct` |
+| **Qwen** | `Qwen2.5-Coder`, `Qwen3-Coder`, `0G-Qwen3.7-max`, `0G-Qwen3.6`, `Qwen3.5-Plus`, `Qwen3-32B`, `0G-Qwen-VL`, `Qwen3.5-VL` |
+| **GLM (Zhipu)** | `GLM-5.2`, `GLM-5.1`, `GLM-5`, `0G-GLM-5.2`, `0G-GLM-5.1`, `0G-GLM-5`, `GLM-5-Turbo`, `GLM-4.7`, `GLM-4.6`, `GLM-Air` |
+| **Kimi (Moonshot)** | `Kimi-K2.5`, `Kimi-K2-Think`, `moonshotai/kimi-k2.6`, `Kimi-K2` |
+| **MiniMax** | `MiniMax-M3`, `0g-minimax-m3`, `MiniMax-M2.7`, `MiniMax-M2.5`, `MiniMax-M2.1` |
+| **Mistral** | `Mistral-Large`, `Mistral-Medium`, `Mistral-Small`, `free/dolphin-mistral-24b-venice-edition` |
+| **Meta Llama** | `Llama-4-Maverick`, `Llama-4-Scout`, `Llama-3.3-70B`, `Llama-3.1-405B`, `meta/codellama-70b` |
+| **Gemma & Hermes** | `Gemma-3-27B`, `Gemma-3-12B`, `Hermes-4-405B`, `Hermes-4-14B`, `OA-Robin-Mini-Preview` |
+| **Free Tier** | `free/north-mini-code`, `free/gemma-4-31b-it`, `free/gpt-oss-20b`, `free/nemotron-3-nano-omni-30b-a3b-reasoning`, `free/nemotron-3-super-120b-a12b` |
 
 Switch models anytime inside Codex CLI with `/model` or via CLI:
 ```bash
-openadapter-codex set-model 0G-DeepSeek-v4-Pro
+openadapter-codex set-model DeepSeek-V3
+# or
+openadapter-codex set-model Qwen2.5-Coder
+# or
+openadapter-codex set-model GLM-5.2
 ```
 
 ---
