@@ -7,6 +7,12 @@
 [![Node.js: >=18](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green.svg)](https://nodejs.org)
 [![Platform: Linux | macOS | WSL](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20WSL-purple.svg)](https://openadapter.ai)
 [![OpenAdapter](https://img.shields.io/badge/Provider-OpenAdapter.ai-orange.svg)](https://openadapter.ai)
+[![20% OFF OpenAdapter](https://img.shields.io/badge/Promo-20%25%20OFF%20Coding%20Plans%20(from%20%246.99)-FF5722?style=for-the-badge&logo=openai&logoColor=white)](https://dashboard.openadapter.in/?ref=BDPBCR3R)
+
+> [!TIP]
+> ### 🎁 Exclusive Community Promo: 20% OFF OpenAdapter Coding Plans!
+> OpenAdapter delivers top-tier coding models (*Claude 3.7 Sonnet, DeepSeek-R1, GPT-5.5, Gemini 2.5 Pro*) starting at just **$6.99/month**.  
+> 👉 **[Claim 20% OFF with Invite Link `https://dashboard.openadapter.in/?ref=BDPBCR3R`](https://dashboard.openadapter.in/?ref=BDPBCR3R)** *(Referral Code: `BDPBCR3R`)*
 
 ---
 
