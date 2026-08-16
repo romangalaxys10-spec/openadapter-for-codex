@@ -11,7 +11,7 @@
 
 > [!TIP]
 > ### 🎁 Exclusive Community Promo: 20% OFF OpenAdapter Coding Plans!
-> OpenAdapter delivers top-tier coding models (*Claude 3.7 Sonnet, DeepSeek-R1, GPT-5.5, Gemini 2.5 Pro*) starting at just **$6.99/month**.  
+> OpenAdapter delivers 40+ top-tier open-source coding & reasoning models (*DeepSeek-R1, DeepSeek-V3, Qwen2.5-Coder, GLM-5.2, Kimi-K2.5, MiniMax-M3, Mistral-Large*) starting at just **$6.99/month** (4x cheaper than proprietary tools).  
 > 👉 **[Claim 20% OFF with Invite Link `https://dashboard.openadapter.in/?ref=BDPBCR3R`](https://dashboard.openadapter.in/?ref=BDPBCR3R)** *(Referral Code: `BDPBCR3R`)*
 
 ---
@@ -20,7 +20,7 @@
 
 - **⚡ Zero Configuration**: 1-line installer automatically registers `[model_providers.OpenAdapter]` in `~/.codex/config.toml`.
 - **🔄 Full Responses API Protocol**: Intercepts Codex CLI's internal `/v1/responses` SSE stream and maps it to OpenAdapter's chat completions.
-- **🧠 Native Reasoning Stream**: Full support for `<think>` reasoning deltas (DeepSeek-R1, Claude 3.7 Sonnet thinking mode).
+- **🧠 Native Reasoning Stream**: Full support for `<think>` reasoning deltas (DeepSeek-R1, Kimi-K2-Think, 0G-DeepSeek-v4-Pro, GLM-5).
 - **🪶 Ultra-Lightweight**: Built with pure native Node.js stdlib (Zero npm runtime dependencies, ~15MB RAM footprint).
 - **🛠️ Cross-Platform**: Runs on Linux (systemd / background daemon), macOS (launchd / background), and Windows WSL.
 
