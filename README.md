@@ -77,21 +77,38 @@ Manage the OpenAdapter gateway easily with the included CLI:
 
 ---
 
-## 🤖 Supported OpenAdapter Models
+## 🤖 Verified OpenAdapter Models Catalog
 
-You can use any model available on your OpenAdapter.ai account:
+All models from [**OpenAdapter Models Directory**](https://dashboard.openadapter.in/models) are supported directly:
 
-- `oa-robin-mini-preview` (Fast coding assistant)
-- `claude-3-7-sonnet` (Hybrid reasoning)
-- `claude-3-5-sonnet`
-- `deepseek-v3` / `deepseek-r1`
-- `gemini-2.5-pro` / `gemini-2.5-flash`
-- `gpt-5.5` / `gpt-5` / `gpt-4o`
-- `qwen-2.5-coder-32b`
+### 🌟 0G & Flagship Reasoning / Coding Models
+- **`0G-DeepSeek-v4-Pro`** / **`0G-DeepSeek-v4-Flash`** / **`0G-DeepSeek-V3`**
+- **`0G-GLM-5.2`** / **`0G-GLM-5.1`** / **`0G-GLM-5`**
+- **`0G-Qwen3.7-max`** / **`0G-Qwen3.6`** / **`0G-Qwen-VL`**
+- **`0GM-1.0-35B-A3B`**
+- **`0g-minimax-m3`** / **`MiniMax-M3`**
 
-Switch models at any time inside Codex CLI using `/model` or via:
+### 💻 OpenAdapter Native & Code Models
+- **`OA-Robin-Mini-Preview`** *(Default)*
+- **`Qwen2.5-Coder`**
+- **`deepseek-ai/deepseek-v4-pro`** / **`deepseek-ai/deepseek-v4-flash`**
+- **`glm-5.2`** / **`glm-5.1`** / **`glm-5`** / **`glm-4.7`**
+- **`meta/llama-4-maverick-17b-128e-instruct`** / **`meta/codellama-70b`**
+- **`moonshotai/kimi-k2.6`**
+- **`stepfun-ai/step-3.7-flash`**
+- **`nvidia/llama-3.3-nemotron-super-49b-v1.5`**
+
+### 🆓 Free Tier Models
+- **`free/north-mini-code`**
+- **`free/gemma-4-31b-it`**
+- **`free/gpt-oss-20b`**
+- **`free/nemotron-3-nano-omni-30b-a3b-reasoning`**
+- **`free/nemotron-3-super-120b-a12b`**
+- **`free/nemotron-3-ultra-550b-a55b`**
+
+Switch models anytime inside Codex CLI with `/model` or via CLI:
 ```bash
-openadapter-codex set-model claude-3-7-sonnet
+openadapter-codex set-model 0G-DeepSeek-v4-Pro
 ```
 
 ---
