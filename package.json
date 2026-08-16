@@ -1,0 +1,31 @@
+{
+  "name": "openadapter-for-codex",
+  "version": "1.0.0",
+  "description": "Run OpenAdapter.ai models directly inside OpenAI Codex CLI with zero setup",
+  "main": "lib/server.js",
+  "bin": {
+    "openadapter-codex": "bin/cli.js",
+    "oa-codex": "bin/cli.js"
+  },
+  "keywords": [
+    "openadapter",
+    "codex",
+    "openai-codex",
+    "codex-cli",
+    "ai",
+    "llm",
+    "proxy",
+    "development"
+  ],
+  "author": "OpenAdapter Community",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/cli.js start --foreground",
+    "setup": "node bin/cli.js setup",
+    "status": "node bin/cli.js status",
+    "test": "node bin/cli.js test"
+  }
+}

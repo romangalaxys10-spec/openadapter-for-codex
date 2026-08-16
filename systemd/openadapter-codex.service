@@ -1,0 +1,14 @@
+[Unit]
+Description=OpenAdapter for Codex Gateway Service
+After=network.target
+
+[Service]
+Type=simple
+User=%I
+ExecStart=/usr/bin/node /home/%I/.openadapter-codex/app/bin/cli.js start --foreground
+Restart=always
+RestartSec=3
+Environment=NODE_OPTIONS="--max-old-space-size=512 --optimize-for-size"
+
+[Install]
+WantedBy=multi-user.target
